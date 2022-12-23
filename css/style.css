@@ -146,7 +146,14 @@ header h2 {
         text-decoration: none;
     }
 
+
+    .navigation-design li a:visited {
+        color: var(--normal-text-color);
+    }
     .navigation-design li a:hover {
+        color: var(--hover-effect-color);
+    }
+    .navigation-design li a:active {
         color: var(--hover-effect-color);
     }
     #hamburger{
